@@ -9,7 +9,6 @@ GH_REF="v${PV}"
 
 # EXPORT_FUNCTIONS: src_unpack
 inherit git-hosting
-inherit cmake-utils
 
 DESCRIPTION="Highly efficient cross-platform WebSocket & HTTP library for C++11 and Node.js"
 LICENSE="ZLIB"
