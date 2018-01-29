@@ -27,3 +27,7 @@ DEPEND_A=( "${CDEPEND_A[@]}" )
 RDEPEND_A=( "${CDEPEND_A[@]}" )
 
 inherit arrays
+
+src_install() {
+	emake PREFIX="${D}"/usr install
+}
